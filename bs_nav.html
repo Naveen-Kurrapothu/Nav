@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+	<link rel="stylesheet" type="text/css" href="../MDB/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../MDB/css/mdb.css">
+	<link rel="stylesheet" type="text/css" href="/home/student/Desktop/html/fontawesome/css/all.css">
+</head>
+<body>
+<!--Nav Bar-->
+<div class="navbar navbar-dark bg-primary navbar-expand-md">
+	<nav class="container-fluid">
+		<a href="#" class="navbar-brand">
+			<span class="fa fa-snowflake pr-2"> </span>Jspiders
+		</a>
+		<button class="navbar-toggler" data-target="#nav" data-toggle="collapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="nav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="" class="nav-link"><i class="fa fa-home"></i>
+					Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link"><i class="fa fa-newspaper"></i>
+					Updates</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link"><i class="fa fa-images"></i>
+					Images</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link"><i class="fa fa-graduation-cap"></i>
+					Courses</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link"><i class="fa fa-phone"></i>
+					Contactus</a>
+				</li>
+				<li>
+					<div>
+						<button class="btn btn-outline-white btn-sm" data-target="#reg" data-toggle="modal">Register Here
+						</button>
+					</div>
+				</li>
+				<li>
+					<div>
+						<button class="btn btn-outline-white btn-sm" data-target="#log" data-toggle="modal">Login Here
+						</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+	</nav>
+</div>
+
+
+<!--Modal for Register-->
+<div class="modal" id="reg">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-success">
+					<h3 class="text-white">Register Here</h3>
+						<button class="close">
+							<span data-dismiss="modal">&times;</span>
+						</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group mb-2">
+						<input type="text" placeholder="ENter UserName" class="form-control">
+					</div>
+					<div class="form-group mb-2">
+						<input type="text" placeholder="Enter EMail" class="form-control">
+					</div>
+					<div class="form-group mb-2">
+						<input type="password" placeholder="Enter Password" class="form-control">
+					</div>
+					<div class="form-group mb-2">
+						<input type="password" placeholder="Confirm Password" class="form-control">
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer bg-success">
+					<button class="btn btn-outline-white btn-md">Submit</button>
+					<button class="btn btn-outline-white btn-md" data-dismiss="modal">Cancle</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Modal for Login-->
+<div class="modal" id="log">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-success">
+					<h3 class="text-white text-center">Login Here</h3>
+						<button class="close">
+							<span data-dismiss="modal">&times;</span>
+						</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group mb-2">
+						<input type="text" placeholder="Enter UserName" class="form-control">
+					</div>
+					
+					<div class="form-group mb-2">
+						<input type="password" placeholder="Enter Password" class="form-control">
+					</div>
+					
+				</form>
+			</div>
+			<div class="modal-footer bg-success">
+					<button class="btn btn-outline-white btn-md">Submit</button>
+					<button class="btn btn-outline-white btn-md" data-dismiss="modal">Cancle</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--Script Code-->
+<script src="../MDB/js/jquery.js"></script>
+<script src="../MDB/js/popper.js"></script>
+<script src="../MDB/js/bootstrap.js"></script>
+<script src="../MDB/js/mdb.js"></script>
+</body>
+</html>
